@@ -43,8 +43,8 @@ export default function Home() {
       {/* Main content area (empty as requested) */}
       <div className="p-4 h-full">
         <div className="text-center text-gray-500 mt-20">
-          <p className="text-sm">WHATCH THIS RANDOM VIDEO MF </p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/BL39MQvIslU?si=Axor7m3YS9y43KRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p className="text-2xl font-bold"> 👿 WHATCH THIS RANDOM VIDEO MF 👿</p>
+          <iframe width="340" height="315" src="https://www.youtube.com/embed/BL39MQvIslU?si=Axor7m3YS9y43KRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </div>
