@@ -17,7 +17,7 @@ import {
 export default function Home() {
   const [navVisible, setNavVisible] = useState(true);
   const [songEnded, setSongEnded] = useState(false);
-  const [mood, setMood] = useState<'happy' | 'grumpy'>();
+  const [mood, setMood] = useState("happy");
   const [isSinging, setIsSinging] = useState(false);
 
   useEffect(() => {
