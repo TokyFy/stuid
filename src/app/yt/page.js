@@ -22,10 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     if (isSinging) {
-      timer = setTimeout(() => {
-        setSongEnded(true);
-        setMood(Math.random() > 0.5 ? 'happy' : 'grumpy');
-      }, 7000);
+     console.log("dsad");
     }
     return () => clearTimeout(10);
   }, [isSinging]);
