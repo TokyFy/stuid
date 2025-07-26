@@ -17,7 +17,7 @@ import {
 export default function Home() {
   const [navVisible, setNavVisible] = useState(true);
   const [songEnded, setSongEnded] = useState(false);
-  const [mood, setMood] = useState("happy");
+  const [mood, setMood] = useState("happu");
   const [isSinging, setIsSinging] = useState(false);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function Home() {
         setMood(Math.random() > 0.5 ? 'happy' : 'grumpy');
       }, 7000);
     }
-    return () => clearTimeout(timer);
+    return () => clearTimeout(10);
   }, [isSinging]);
 
   return (
